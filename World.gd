@@ -22,7 +22,7 @@ func _ready():
 
 	get_tree().paused = true
 	start_in.visible = true
-	await LevelTransition.fade_from_black()
+	LevelTransition.fade_from_black()
 	animation_player.play("countdown")
 	await animation_player.animation_finished
 	start_in.visible = false
