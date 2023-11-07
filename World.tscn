@@ -5,6 +5,9 @@
 [ext_resource type="PackedScene" uid="uid://dbnbhjsoqpp3o" path="res://level_completed.tscn" id="5_mj0lg"]
 [ext_resource type="PackedScene" uid="uid://401qkab2dk2s" path="res://level_tile_map.tscn" id="6_m21ep"]
 
+[sub_resource type="Animation" id="Animation_xm3bl"]
+length = 3.2
+
 [sub_resource type="Animation" id="Animation_epnit"]
 resource_name = "countdown"
 length = 3.0
@@ -20,9 +23,6 @@ tracks/0/keys = {
 "update": 1,
 "values": ["3", "2", "1"]
 }
-
-[sub_resource type="Animation" id="Animation_xm3bl"]
-length = 3.2
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tgolc"]
 _data = {
